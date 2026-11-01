@@ -55,7 +55,14 @@ export default function ToDoList() {
         </button>
       </form>
 
-      <ul className="todolist-list">
+      <ul
+        style={{
+          maxWidth: "400px",
+          margin: "0 auto",
+          listStyleType: "none",
+          padding: 0,
+        }}
+      >
         {items.map((item) => (
           <li key={item} className="todolist-item">
             <div className="wrapper">
