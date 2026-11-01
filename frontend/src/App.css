@@ -70,10 +70,23 @@
   border: 1px solid #444;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .todolist-addItem:hover {
   background-color: #7e7c7c;
+}
+
+.todolist-list {
+  max-width: 400px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  max-height: 160px;
+  overflow-y: auto; 
+  border: 10px solid #212529;
+  background-color: #212529;
+  border-radius: 10px;
 }
 
 .todolist-item {
@@ -83,11 +96,15 @@
   align-items: center;
   justify-content: space-between;
   padding-right: 8px;
-  margin-top: 5px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: var(--card-bg);
+  border-radius: 5px;
 }
 
 .todolist-trashbutton {
-  margin: 4px 0 0 5px;
+  margin: 4px 0 4px 5px;
   font-size: 12px;
   padding: 4px 12px;
   background-color: #8f8f8f;
